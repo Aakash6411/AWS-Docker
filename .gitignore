@@ -5,6 +5,7 @@ terraform.tfvars.json
 *.tfstate
 *.tfstate.backup
 *.tfplan
+provider.tf
 
 .terraform/
 .terraform.lock.hcl
