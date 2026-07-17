@@ -157,7 +157,7 @@ resource "aws_codebuild_project" "app_build" {
 
 artifacts {
     type     = "S3"
-    location = aws_s3_bucket.build_artifacts.id  # <-- Yahan '.name' ki jagah '.id' kar dein
+    location = aws_s3_bucket.build_artifacts.id 
   }
 
   environment {
