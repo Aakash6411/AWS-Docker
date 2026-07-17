@@ -1,13 +1,13 @@
 variable "aws_region" {
-  description = "AWS Region jahan resources banenge"
+  description = "AWS Region in which resources will be created"
   type        = string
   default     = "us-east-1"
 }
 
 variable "instance_type" {
-  description = "EC2 instance ka size"
+  description = "Size of EC2 instance"
   type        = string
-  default     = "t3.medium" # Jenkins + Docker ke liye minimum t3.medium ya t2.medium recommended hai
+  default     = "t3.medium" # For Jenkins + Docker t3.medium ya t2.medium is recommended.
 }
 
 variable "ebs_size" {
